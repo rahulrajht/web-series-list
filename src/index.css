@@ -1,0 +1,58 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+body {
+  max-width: 800px;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  background: url("./pexel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.Button{
+  cursor: pointer;
+  border-radius: 42px;
+  border: black;
+  outline: black;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(225deg, #a6b8c3, #485a6d);
+  margin: 1rem 0.3rem;
+  box-shadow: -35px 35px 69px #bfcad7, 35px -35px 69px #f3ffff;;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #030911;
+  width: 70%;
+  height: 50%;
+  margin: 1rem 0rem;
+  background: linear-gradient(225deg, #a6b8c3, #485a6d);
+  border-radius: 0.5rem;
+}
+.heading{
+  font-size: 22px;
+}
+.rating{
+  margin-top: 2px;
+  font-size: 12px;
+}
+.story{
+  text-align: start;
+  margin-top: 5px;
+  font-size: 18px;
+}
+img{
+ border-radius: 1rem;
+ width: 200px;
+ height: 300px
+}
+.section{
+  padding: 1rem 1rem;
+
+}
