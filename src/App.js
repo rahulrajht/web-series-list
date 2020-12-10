@@ -159,7 +159,7 @@ export default function App() {
               <img src={series.image} width="200" height="300" />
               <section className="section">
               <div className="heading"> {series.name} </div>
-              <div className="rating"> ⭐ {series.rating} </div>
+              <div className="rating" > <span role="img" aria-label="star">⭐</span> {series.rating} </div>
               <div className="story"> {series.story} </div>
               </section>
             </li>
